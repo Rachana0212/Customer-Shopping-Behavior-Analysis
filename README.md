@@ -45,11 +45,13 @@ The data was cleaned and prepared before analysis to ensure consistency and accu
 ## Data Cleaning (Python)
 Data cleaning was performed using Python to prepare the dataset for analysis. The main steps included:
 
-- Handling missing values
-- Removing duplicate records
-- Standardizing column formats
-- Checking for data consistency
+- Handling missing values in review ratings using category-wise median.
+- Standardizing column names by converting them to lowercase and replacing spaces with underscores.
+- Creating a new age_group feature for customer segmentation.
+- Converting purchase frequency categories into numerical values for easier analysis.
 - Preparing the dataset for SQL analysis
+
+![Python](python.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -58,10 +60,13 @@ SQL queries were used to analyze the dataset and extract meaningful insights.
 
 Some of the analysis performed includes:
 
-- Identifying the top 3 most purchased products within each category
+- Identifing the top 3 most purchased products within each category
 - Analyzing category-wise purchase trends
-- Understanding customer purchasing patterns
-- Evaluating product performance across categories
+- Calculating average purchase amount by category
+- Analyzing customer distribution by gender
+- Comparing Subscriber vs Non-Subscriber Spending Analysis
+
+![SQL](SQL.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -75,20 +80,9 @@ The dashboard includes:
 - Customer purchasing trends
 - Key performance metrics
 
+![Customer Dashboard](customer_dashboard.png)
+
 These visualizations make the data easier to interpret and help support data-driven business decisions.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Dashboard Preview
-
-### Shopping Overview Dashboard
-![Shopping Overview](images/dashboard1.png)
-
-### Category Analysis Dashboard
-![Category Analysis](images/dashboard2.png)
-
-### Customer Insights Dashboard
-![Customer Insights](images/dashboard3.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
