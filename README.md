@@ -20,8 +20,7 @@ The goal of this project is to transform raw customer transaction data into mean
 - Python (Pandas) – Data cleaning and preprocessing  
 - SQL (MySQL) – Data querying and analysis  
 - Power BI – Data visualization and dashboard creation  
-- Excel / CSV – Dataset format  
-- GitHub – Version control and documentation  
+- Excel / CSV – Dataset format 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -29,14 +28,17 @@ The goal of this project is to transform raw customer transaction data into mean
 The dataset contains customer shopping information including:
 
 - Customer ID  
-- Category  
+- Category
+- Gender
+- Age, Age Group
 - Item Purchased  
-- Purchase Amount  
-- Payment Method  
-- Location  
-- Season  
+- Purchase Amount 
 - Review Rating  
-- Subscription Status  
+- Subscription Status
+- Shipping type
+- Discount Applied
+- Payment Method
+- Frequency of Purchases  
 
 The data was cleaned and prepared before analysis to ensure consistency and accuracy.
 
@@ -77,8 +79,11 @@ The dashboard includes:
 
 - Category-wise purchase distribution
 - Top-selling products
-- Customer purchasing trends
-- Key performance metrics
+- Revenue and Sales by Category 
+- Revenue and Sales by Age Group
+- Subscription Status
+- Gender
+- Shipping Type
 
 ![Customer Dashboard](customer_dashboard.png)
 
